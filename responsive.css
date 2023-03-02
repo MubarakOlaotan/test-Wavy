@@ -258,7 +258,6 @@
         padding: 10px;
         box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.3);
         border-radius: 20px;
-        position: relative;
         box-sizing: border-box;
         transition: all .5s;
     }
@@ -279,21 +278,32 @@
     .news-btn i {
         z-index: 10;
         cursor: pointer;
-        padding: 5px 10px;
+        padding: 10px 15px;
         border-radius: 10px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: #1a1a1a;
+        color: white;
+        border-radius: 49%;
+        transition: all .4s ease;
+    }
+
+    .news-btn i:focus, 
+    .news-btn i:hover {
+        scale: 1.1;
+        background-color: white;
+        color: #1a1a1a;
     }
 
     #left {
         position: absolute;
-        left: 5%;
+        left: 5px;
         top: 50%;
         outline: none;
     }
 
     #right {
         position: absolute;
-        right: 5%;
+        right: 5px;
         top: 50%;
         outline: none;
     }
@@ -338,28 +348,40 @@
     }
 
     #crew .crew-carousel .btn-crew {
-        display: block;
+        display: block;        
     }
 
     .crew-carousel .btn-crew i {
         z-index: 10;
         cursor: pointer;
-        padding: 5px 10px;
+        padding: 10px 15px;
         border-radius: 10px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        background-color: #1a1a1a;
+        color: white;
+        border-radius: 50%;
+        font-size: 15px;
+        transition: all .3s ease-in-out;
+    }
+
+    .crew-carousel .btn-crew i:focus, 
+    .crew-carousel .btn-crew i:hover {
+        scale: 1.1;
+        background-color: white;
+        color: #1a1a1a;
     }
 
     #crew-left {
         position: absolute;
         top: 50%;
-        left: 5px;
+        left: 10px;
         outline: none;
     }
 
     #crew-right {
         position: absolute;
         top: 50%;
-        right: 5px;
+        right: 10px;
         outline: none;
     }
 
