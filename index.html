@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Wavy</title>
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./all.min.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- custom js -->
+    <script src="./main.js" defer></script>
+
+     <!-- responsive css -->
+     <link rel="stylesheet" href="responsive.css">
+
+</head>
+<body>
+<div id="backdrop"></div>
+    <header>
+        <div class="navbar">
+            <div class="logo animate__animated animate__fadeInUp"><a href="#"><img src="./img/logo.png" alt="logo"></a></div>
+            <ul id="navbar" class="animate__animated animate__fadeInUp">
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#categories">Services</a></li>
+                <li class="nav-item"><a href="#news">Blog</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <a href="#" id="close"><i class="fas fa-close"></i></a>
+            </ul>
+            <button class="btn signup-btn">Sign Up</button>
+
+            <div id="mobile">
+                <i class="fas fa-outdent" id="bar"></i>
+            </div>
+        </div>
+
+
+        <div class="header-text">
+            <h2 class="animate__animated animate__fadeInLeft">WAVY PODCAST</h2>
+            <h3 class="animate__animated animate__backInLeft animate__delay-1s">Exclusive</h3>
+            <p class="animate__animated animate__backInLeft animate__delay-2s">audio new, stories, music</p>
+            <p class="animate__animated animate__backInLeft animate__delay-3s">and many more in one place</p>
+        </div>
+        <div class="wavy">
+            <img src="./img/wavy1.png" alt="">
+            <img src="./img/wavy2.png" alt="">
+        </div>
+    </header>
+
+
+
+    <section id="about" class="section-m1 section-p1">
+        <div data-aos="fade-up" data-aos-duration="1000"><div class="about-container">
+            <div class="about-text">
+                <h4>ABOUT US</h4>
+                <h2>We Are - Wavy Podcast</h2>
+                <p>Wavy Podcast is a weekly public radio</p>
+                <p>program and podcast. Each week we</p>
+                <p>choose a topic and put together</p>
+                <p>different kinds of stories on that topic.</p>
+                <button class="about-btn">Read More</button>
+            </div>
+            <div class="about-image">
+                <img src="./img/about-us.png" alt="a microphone image">
+                <i class="fa-solid fa-circle-play play"></i>
+                <div class="about-image-text">
+                    <p>Play video</p>
+                <small>01:27</small>
+                </div>
+                <img src="./img/about-rectangle.png" class="rectangle" alt="">
+                <img src="./img/about-wavy.png" class="wavy" alt="">
+            </div>
+        </div>
+    </div>
+        
+    </section>
+
+    <section id="categories" class="section-m1">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <div class="category-text">
+                <h2>Listen to daily podcast. Get</h2>
+                <h2>inspired by it.</h2>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="./img/politics.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./img/education.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./img/sports.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./img/Mindful-teens.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./img/celelberity.png" alt="">
+                </div>
+                <div class="card">
+                    <img src="./img/sports.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    
+    <section id="news" class="section-p1">
+        <div data-aos="fade-up" data-aos-duration="1000">
+             <div class="news-header">
+            <h2>News and Articles</h2>
+            <h3>Blog Update</h3>
+        </div>
+
+        <div class="carousel">
+            <div class="news-btn">
+                <i id="right" class="fa-solid fa-greater-than"></i>
+                <i id="left" class="fa-solid fa-less-than"></i>
+            </div>
+            <div class="news-cards image-container" id="imgs">
+                <div class="news-card">
+                    <p class="date">09/22</p>
+                    <img src="./img/news1.png" alt="">
+                    <div class="news-text">
+                        <h4>Latest news on <br> Social Media</h4>
+                        <p>Meta launched <span>6 new Reels features,</span> including Add yours stickers. . .</p>
+                        <div class="news-subtitle">
+                            <p>Kanesa David</p>
+                            <img src="./img/count & bubble.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="news-card">
+                    <p class="date">10/22</p>
+                    <img src="./img/news2.png" alt="">
+                    <div class="news-text">
+                        <h4>ASUU effects<br>on students</h4>
+                        <p>ASUU eight months strike affect students' psyche, emotions . . .</p>
+                        <div class="news-subtitle">
+                            <p>Samael Jacques</p>
+                            <img src="./img/count & bubble2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="news-card">
+                    <p class="date">11/22</p>
+                    <img src="./img/news-3.png" alt="">
+                    <div class="news-text">
+                        <h4>The 2023 Grammy Award</h4>
+                        <p>Grammy Awards 2023: <br> Beyonce, leading with 9 nominations, will face off pop icon, Adele. . .</p>
+                        <div class="news-subtitle">
+                            <p>Noah Clinton</p>
+                            <img src="./img/count & bubble3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="news-card">
+                    <p class="date">09/22</p>
+                    <img src="./img/news1.png" alt="">
+                    <div class="news-text">
+                        <h4>Latest news on <br> Social Media</h4>
+                        <p>Meta launched <span>6 new Reels features,</span> including Add yours stickers. . .</p>
+                        <div class="news-subtitle">
+                            <p>Kanesa David</p>
+                            <img src="./img/count & bubble.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        </div>
+    </section>
+   
+
+    <section id="crew" class="section-p1">
+        <div data-aos="fade-up" data-aos-duration="1000">
+             <div class="crew-header">
+            <h2>Our Crew</h2>
+        </div>
+
+        <div class="crew-carousel">
+            <div class="btn-crew">
+                <i id="crew-right" class="fa-solid fa-greater-than"></i>
+                <i id="crew-left" class="fa-solid fa-less-than"></i>
+            </div>
+            <div class="crew-cards image-container" id="crew-imgs">
+                <div class="crew-card">
+                    <img src="./img/crew1.jpeg" alt="">
+                    <div class="crew-text">
+                        <h3>Alabi Motunrayo</h3>
+                        <p>SHOW HOST</p>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="crew-card">
+                    <img src="./img/crew2.jpeg" alt="">
+                    <div class="crew-text">
+                        <h3>Afolabi Micheal</h3>
+                        <p>AUDIO ENGINEER</p>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="crew-card">
+                    <img src="./img/crew3.jpeg" alt="">
+                    <div class="crew-text">
+                        <h3>Abdul-Lateef Aminat</h3>
+                        <p>VOICE OVER SPECIALIST</p>
+                        <div class="socials">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="crew-btn">
+            <button class="about-btn">
+                See all
+            </button>
+        </div>
+        </div>
+       
+    </section>
+
+    <section id="platform">
+        <div data-aos="fade-up" data-aos-duration="1000">
+             <div class="platform-header">
+            <h2>You can also listen to our</h2>
+            <h2>Podcasts in all of the</h2>
+            <h2>platforms listed.</h2>
+        </div>
+
+        <div class="platforms">
+            <div class="platform spotify">
+                <i class="fa-brands fa-spotify"></i>
+                <p>Listen on <span>Spotify</span></p>
+            </div>
+
+            <div class="platform youtube">
+                <i class="fa-brands fa-youtube"></i>
+                <p>Listen on <span>YouTube</span></p>
+            </div>
+
+            <div class="platform radio">
+                <i class="fa-brands fa-spotify"></i>
+                <p>Listen on <span>iHeartRadio</span></p>
+            </div>
+
+            <div class="platform apple">
+                <i class="fa-brands fa-apple"></i>
+                <p>Listen on <span>Apple Music</span></p>
+            </div>
+        </div>
+
+        <div class="platform-img">
+                <img src="./img/screenshot1.png" alt="">
+                <img src="./img/screenshot2.png" alt="">
+        </div>
+        </div>
+       
+    </section>
+
+    <section id="contact" class="section-p1">
+        <div data-aos="zoom-in" data-aos-duration="800">
+             <div class="contact-header">
+            <h4>Contact Us</h4>
+            <h2>Write to us</h2>
+        </div>
+
+        <div class="contact-container">
+            <div class="form">
+            <form action="">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <input type="text" placeholder="Message" class="message">
+            </form>
+            </div>
+           
+            <div class="contact-img">
+            <img src="./img/contact-us.png" alt="">
+            </div>
+        </div>
+        <button>Submit</button>
+        </div>
+       
+</section>
+
+<footer class="section-p1">
+    <div class="col1">
+        <img src="./img/logo2.png" alt="">
+        <div class="ball"></div>
+        <div class="ball"></div>
+    </div>
+    <div class="col2">
+            <h4>Subscribe</h4>
+            <input type="text" placeholder="Email">
+            <button>Subscribe</button>
+    </div>
+    <div class="col3">
+        <h4>Social Media</h4>
+        <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+</footer>
+
+<section id="footer2" class="section-p1">
+    <h4>Copyright c 2023. All Rights Reserved</h4>
+    <h4>Terms and Conditions</h4>
+    <h4>Privacy Policy</h4>
+    <small>With love, the256.</small>
+</section>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    
+</body>
+</html>
