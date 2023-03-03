@@ -539,6 +539,12 @@ header .wavy img {
     right: 29.375rem;
 }
 
+/* #platform .platforms .youtube {
+    position: absolute;
+    top: 4.68rem;
+    right: 29.375rem;
+} */
+
 #platform .platforms .youtube i{
     color: red;
 }
