@@ -432,12 +432,12 @@
         margin: 5px 0;
     }
 
-    .section-p1 {
-        padding: 10px 20px; 
+    #footer2 small {
+        display: block;    
     }
 
-    #footer2 small {
-        display: none;    
+    .section-p1 {
+        padding: 10px 20px; 
     }
 
     #contact .contact-container form input {
